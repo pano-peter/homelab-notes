@@ -1,0 +1,26 @@
+baseURL = 'https://pano-peter.github.io/homelab-notes/'
+languageCode = 'en-us'
+title = 'Homelab Notes'
+theme = 'PaperMod'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+
+
+[params]
+  showLanguages = true
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    contentDir = 'content/en'
+    title = 'Homelab Notes'
+    description = 'Self-hosting and homelab notes'
+
+  [languages.hu]
+    languageName = 'Magyar'
+    weight = 2
+    contentDir = 'content/hu'
+    title = 'Homelab Jegyzetek'
+    description = 'Self-hosting és homelab jegyzetek'
